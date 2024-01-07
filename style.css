@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-image: url(./img/Banner\ Image.png);
+
+  height: 600px;
+  width: 1320px;
+  margin: auto;
+}
+.header h3 {
+  color: #fff;
+
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 177px;
+}
+.header h1 {
+  color: #fff;
+
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+}
+.offer {
+  text-align: center;
+}
+.offer h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.offer p {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.offer h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.party {
+  background-image: url(./img/Vectorrr.png);
+  width: 1320px;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 128px;
+  margin-bottom: 128px;
+}
+.party h1 {
+  color: white;
+  font-family: Merriweather;
+  font-weight: 900;
+  font-size: 64px;
+  padding: 126px 0px 20px 126px;
+}
+.party p {
+  color: #fff;
+  font-family: Inter;
+  padding: 0px 0px 30px 126px;
+  font-size: 18px;
+}
+.party-btn {
+  margin: 0 0px 0px 126px;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: Inter;
+  text-transform: uppercase;
+
+  background: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.party-images {
+  padding: 80px 80px 0px 0px;
+}
+.join-now {
+  height: 482px;
+  width: 1320px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+.join-now p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.join-now span {
+  color: red;
+}
+.join-now-content {
+  padding: 128px;
+}
+.join-now-btn {
+  color: #fff;
+  background-color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 50px;
+}
+/* add main section */
+.portfolio {
+  width: 1320px;
+  margin: auto;
+  text-align: center;
+}
+.portfolio h2 {
+  color: red;
+  text-align: start;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 10px;
+}
+.portfolio h1 {
+  color: black;
+  text-align: start;
+  font-size: 48px;
+  font-weight: 900;
+  padding: 10px;
+}
+.portfolio p {
+  text-align: start;
+  color: rgb(154, 146, 136);
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px;
+}
+
+.newsletter {
+  background: rgba(255, 0, 0, 0.05);
+  width: 1320px;
+  height: 616px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 128px;
+  text-align: center;
+}
+.newsletter img {
+  padding: 100px 0 40px 0;
+}
+.newsletter h1 {
+  font-size: 48px;
+  font-weight: 900;
+  padding: 0 0 20px 0;
+}
+.newsletter p {
+  color: rgb(26, 15, 1);
+  padding-bottom: 20px;
+}
+
+.footer {
+  background-color: #070211;
+  width: 1600px;
+  height: 609px;
+  margin: auto;
+  margin-top: 128px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 200px;
+}
+.footer-content-right {
+  display: flex;
+}
+
+.search-wrapper {
+  width: 450px;
+  margin: 20px auto 50px auto;
+  border-radius: 40px;
+  background: transparent;
+}
+
+/* Form text input */
+
+.search-wrapper input {
+  padding-left: 20px;
+  width: 330px;
+  height: 20px;
+  padding: 10px 5px;
+  float: left;
+  font: bold 13px "lucida sans", "trebuchet MS", "Tahoma";
+  border: 0;
+  background: #fff;
+  border-radius: 40px;
+  border-top-style: none;
+}
+
+.search-wrapper input:focus {
+  outline: 0;
+  background: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.8) inset;
+}
+
+.search-wrapper input::-webkit-input-placeholder {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+  padding-left: 20px;
+}
+
+.search-wrapper input:-moz-placeholder {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.search-wrapper input:-ms-input-placeholder {
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+  border-style: none;
+}
+
+/* Form submit button */
+.search-wrapper button {
+  overflow: visible;
+  position: relative;
+  float: right;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  height: 40px;
+  width: 110px;
+  font: 13px/40px "lucida sans", "trebuchet MS", "Tahoma";
+  color: #fff;
+  text-transform: uppercase;
+  background: red;
+  border-radius: 0 40px 40px 0;
+}
